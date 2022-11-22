@@ -175,13 +175,95 @@ section h2 {
     gap: 2em;
     padding: 0 80px;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    height: 12em;
+    background-color: #2D314D;
+}
+
+.footer-links ul {
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+    gap: 10px;
+    width: 1000px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: hsl(162, 70%, 51%);
+}
+
+.left-links {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.footer-icons ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-left {
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-left .footer-logo {
+    margin-left: 30px;
+}
+
+.footer-right {
+    width: 100%;
+    margin-right: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-right p {
+    font-size: 12px;
+    color:hsl(220, 16%, 96%);
+}
+
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    color: #ffffff;
+    text-align: center;
+    background-color: #2D314D; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #2BB7DA; 
 }
 
 /* Mobile Response */
