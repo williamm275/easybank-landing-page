@@ -284,6 +284,10 @@ footer {
         display: none;
     }
 
+    .collapse .btn {
+        display: none;
+    }
+    
     header {
         background-image: url(./images/bg-intro-mobile.svg);
         background-position: bottom;
