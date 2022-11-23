@@ -176,6 +176,15 @@ section h2 {
     padding: 0 80px;
 }
 
+.cards-container a {
+    text-decoration: none;
+    color: #2D314D;
+    transition: 0.4s;
+}
+
+.cards-container a:hover {
+    color: hsl(162, 70%, 51%);
+}
 /* Footer */
 footer {
     display: flex;
@@ -224,6 +233,14 @@ footer {
     display: flex;
     gap: 10px;
     list-style: none;
+}
+
+.footer-icons a {
+    color:hsl(220, 16%, 96%);
+}
+
+.footer-icons a:hover {
+    color: hsl(162, 70%, 51%);
 }
 
 .footer-left {
