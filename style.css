@@ -25,34 +25,24 @@ body {
 }
 
 /* Navigation */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 30px;
-    margin: 0;
-}
-
-.nav-links a {
+.navbar-nav a {
     display: flex;
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     font-size: 14px;
     color: #9698A6;
     transition: 0.4s;
 }
 
-.nav-links a:hover {
+.navbar-nav a:hover {
     text-decoration: none;
     font-size: 14px;
     color: #2D314D;
-    border-bottom: 3px solid #31D35C;
+    box-shadow: inset 0 -3px 0 0 #31D35C;
+}
+
+.navbar-nav {
+    margin: auto;
 }
 
 .btn.btn-primary {
@@ -73,19 +63,18 @@ nav {
 /* Header */
 header {
     background-image: url(./images/bg-intro-desktop.svg);
+    background-position: bottom -200px left 700px;
     background-repeat: no-repeat;
-    background-position: 40em -11em;
     height: 40rem;
     z-index: -1;
 }
 
 header img {
-    display: block;
     position: absolute;
     width: 700px;
-    left: 55.5rem;
-    top: -2.3rem;
     z-index: 1;
+    left: 900px;
+    bottom: -100px;
 }
 
 .header-container {
@@ -93,7 +82,6 @@ header img {
     flex-direction: column;
     align-items: flex-start;
     padding: 10em 3em;
-    margin-right: 50em;
     gap: 15px;
 }
 
@@ -139,6 +127,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 60px 40px;
 }
 
@@ -172,6 +161,7 @@ section h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2em;
     padding: 0 80px;
 }
@@ -284,6 +274,36 @@ footer {
 }
 
 /* Mobile Response */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 
+    nav ul {
+        display: none;
+    }
+
+    header img {
+        width: 400px;
+        left: 0;
+    }
+
+    header {
+        background-image: url(./images/bg-intro-mobile.svg);
+        background-position: 0;
+    }
+
+    .header-container h1 {
+        width: 200px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin: 0;
+    }
 }
