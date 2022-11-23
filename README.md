@@ -12,9 +12,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-[Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,32 +25,32 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/williamm275/easybank-landing-page](https://github.com/williamm275/easybank-landing-page)
+- Live Site URL: [https://williamm275.github.io/easybank-landing-page/](https://williamm275.github.io/easybank-landing-page/)
 
 ## My process
 
+I decided to use Bootstrap to assist me in creating a responsive navbar and cards. To make sure all elements within my website were structured well I used Flexbox. 
+
 ### Built with
+- HTML
+- CSS
+- Bootstrap
 
 ### What I learned
 
+I learned new techniques when using Bootstrap such as muted text.
+
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Creating a collapse menu when on a smaller device is something I need to work on. I found the best way to create it was to hide the button within the nav when the device is small but it only works on Desktop and you can still see the button disappear. I would like to learn new, efficient and quicker ways to layout elements on a page. I also would like to find a more responsive way to place transparent images within a container in a specific position while still resizing with the window or device size.
 
 ## Author
 
 - Website - [William R. Martinez](https://willrmartinez.com)
 - Frontend Mentor - [@williamm275](https://www.frontendmentor.io/profile/williamm275)
 - Twitter - [@williamm275](https://www.twitter.com/williamm275)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
